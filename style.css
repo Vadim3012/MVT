@@ -1,0 +1,362 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+.head{
+    background: url(./img/font1.png) no-repeat;
+    object-fit: cover;
+}
+
+.head_nav{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.9;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.head_graff{
+    font-family: Calligraffitti;
+    font-size: 41px;
+    padding: 20px 0 0 160px;
+    color: black;
+}
+.pink{
+    color: red;
+}
+
+.head_navMenu{
+    display: flex;
+    padding: 35px 170px 0 0;
+}
+
+.head_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list{
+    padding-left: 35px;
+    Text: Home About Us Services Contact;
+    opacity: 0.74;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #454545;
+}
+
+.list2{
+    padding-left: 35px;
+    padding-right: 35px;
+    Text: Home About Us Services Contact;
+    opacity: 0.74;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #454545;
+}
+    
+.head_button{
+    display: flex;
+    background-color: #de6d6e;
+    width: 87px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.log{
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+    padding: 2px 0 0 12px;
+}
+
+.head_imgbut{
+    display: block;
+    padding: 5px 0 0 11px;
+}
+
+.greeting{
+    padding-top: 340px;
+    padding-bottom: 81px;
+    text-align: center;
+}
+
+.head_welcome{
+    font-family: Montserrat Alternates;
+    font-size: 69px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 13px rgba(0,0,0,0.21);
+    color: #ffffff;
+}
+
+.theme{
+    font-family: lexend;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-shadow: 0px 0px 13px rgba(0,0,0,0.21);
+    color: #ffffff;
+}
+
+.lorem_title{
+    text-align: center;
+}
+
+.lorem_titlehed{
+    font-family: lexend;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+    padding-top: 65px;
+}
+
+.lorem_text{
+    font-family: lexend;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #636363;
+    padding-top: 15px;
+}
+
+.lorem_ifo{
+    display: flex;
+    justify-content: space-between;
+    width: 945px;
+    margin: 0 auto;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.lorem_border{
+    width: 179px;
+    height: 179px;
+    background-color: #4eb9f4;
+    border-radius: 50%;
+}
+
+.lorem_tickets{
+    padding: 35px 0 0 50px;
+}
+
+.lorem_texted{
+    font-family: lexend;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 0 0 15px;
+}
+
+.lorem_cam{
+    padding: 35px 0 0 50px;
+}
+
+.lorem_camtext{
+    font-family: lexend;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 0 0 11px;
+}
+
+.lorem_beer{
+    position: relative;
+}
+
+.beer{
+    opacity: 0.25;
+    padding: 35px 0 0 58px;
+}
+
+.lorem_title2{
+    position: absolute;
+    font-family: lexend;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    width: 129px;
+    height: 88px;
+    text-align: center;
+    bottom: 30px;
+    left: 27px;
+}
+
+.lorem_fon{
+    padding: 39px 0 0 55px;
+}
+
+.lorem_deviche{
+    font-family: lexend;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 0 0 6px;
+}
+
+.lorem_berText{
+    font-family: lexend;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 0 0 68px;
+}
+
+.subText{
+    display: flex;
+    max-width: 953px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.subText__content{
+    padding-left: 30px;
+}
+
+.subText__caption{
+    padding-bottom: 15px;
+    font-family: Univers;
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #404040;
+    font-family: lexend;
+}
+
+.subText__desc{
+    font-family: lexend;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.block{
+    display: flex;
+    background-color: #272828;
+    justify-content: space-evenly;
+}
+
+.foot{
+    display: flex;
+    padding: 32px 0 32px 0;
+}
+
+.foot__navFoot{
+    padding-left: 30px;
+}
+
+h2{
+    padding-bottom: 15px;
+    font-family: lexend;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #aeaeae;
+}
+
+li{
+    padding-bottom: 5px;
+    font-family: lexend;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.contacts{
+    display: flex;
+    padding-top: 60px;
+}
+
+.facebook{
+    padding: 11px 0 0 18px;
+}
+.facebook:hover{
+    background-color: #77a7a7;
+}
+
+
+.contacts__img{
+    border-radius: 50%;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    margin-left: 20px;
+}
+
+.contacts__img:hover{
+    background-color: #77a7a7;
+}
+
+.contacts_twit{
+    margin: 13px;
+}
+
+.contacts_twitBribble{
+    margin: 9px;
+}
+
+.textFoot{
+    font-family: lexend;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #8b8b8b;
+    padding: 20px 0 0 15px;
+}
+
